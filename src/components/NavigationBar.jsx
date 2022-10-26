@@ -5,6 +5,7 @@ export default function NavigationBar() {
                 <li className="text-4xl font-semibold text-moss-500">Home</li>
                 <li className="text-4xl font-semibold text-moss-500">About</li>
                 <li className="text-4xl font-semibold text-moss-500">Contact</li>
+                <li className="text-4xl font-semibold text-moss-500">Login/Sign-up</li>
             </ul>
         </nav>
     )
