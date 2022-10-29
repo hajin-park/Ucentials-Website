@@ -1,7 +1,7 @@
 export default function HomepageTitle() {
     return (
-        <header>
-            <h1 className="text-center text-transparent bg-clip-text bg-gradient-to-r from-moss-700 to-moss-500 text-8xl font-bold">Ucentials marketplace</h1>
+        <header className='flex items-center justify-center h-screen w-full'>
+            <h1 className="text-center text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-green-400 text-8xl font-extrabold">Ucentials Marketplace</h1>
         </header>
     )
 }
