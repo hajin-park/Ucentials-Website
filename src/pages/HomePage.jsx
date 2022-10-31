@@ -1,9 +1,9 @@
-import HomepageTitle from '../components/HomepageTitle'
+import Filler from '../components/Filler'
 
 export default function HomePage() {
     return (
         <>
-            <HomepageTitle />
+            <Filler />
         </>
     )
 }
