@@ -1,9 +1,13 @@
 import HomePage from './pages/HomePage'
+import NavBar from './components/NavBar'
 import './App.css';
 
 function App() {
   return (
-    <HomePage />
+    <div className='relative w-full'>
+      <NavBar />
+      <HomePage />
+    </div>
   );
 }
 
