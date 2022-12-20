@@ -12,7 +12,10 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      clipPath: {
+        "poly-right": "polygon(0 0, 100% 0, 100% 70%, 0 100%)",
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-clip-path')],
 }
